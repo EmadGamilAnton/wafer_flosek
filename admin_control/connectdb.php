@@ -1,8 +1,8 @@
 <?php
 
 $dsn  = 'mysql:host=127.0.0.1:3310;dbname=ecommerce-design';
-$user = 'root';
-$pass = 'rootem';
+$user = '';
+$pass = '';
 
 $option = array(
     PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
